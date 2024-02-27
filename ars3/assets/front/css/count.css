@@ -1,0 +1,26 @@
+ .card {
+
+ 	width: 327px;
+ 	height: 299px;
+ 	border-radius: 100px;
+ 	margin: 10px;
+ 	padding: 20px;
+ 	text-align: center;
+ 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 	background: radial-gradient(circle at 50% 50%, #717171, #333);
+ 	color: white;
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	align-content: center;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #fff;
+ }
+
+ .display-4 {
+ 	font-size: 2.5em;
+ 	font-weight: bold;
+ 	color: black;
+ }
+

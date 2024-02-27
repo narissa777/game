@@ -1,0 +1,37 @@
+.yazdir
+{
+	width: 5cm;
+	height: 5cm;
+	border:3px solid black;
+	box-sizing: border-box;
+	page-break-after: always;
+}
+
+@media print{
+	body * {
+		visibility: hidden;
+	}
+	.yazdir, .yazdir * {
+		visibility: visible;
+	}
+	.yazdir p
+	{
+		text-align: center;
+		margin: 0;
+	}
+	.yazdir img
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80%;
+		width: 100%;
+	}
+	@page{
+		size: 5cm;
+		margin: 0;
+	}
+	html, body {
+		margin: 0;
+	}
+}

@@ -1,0 +1,5 @@
+__ci_last_regenerate|i:1703150039;adminlogin|b:1;admininfo|O:8:"stdClass":5:{s:2:"id";s:1:"1";s:5:"email";s:15:"admin@admin.com";s:8:"password";s:5:"admin";s:5:"yetki";s:5:"admin";s:4:"name";s:5:"admin";}flasmessage|s:433:"<div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h4><i class="icon fa fa-check"></i> Başarılı</h4>
+                Form Başarıyla Gönderilmiştir,Talep Formu İsteğiniz Emailinize iletilmiştir,Müşteri Temsilcimiz Yakında Sizlere Ulaşım Sağlayacaktır.İyi Günler Dileriz...
+              </div>";__ci_vars|a:1:{s:11:"flasmessage";s:3:"old";}

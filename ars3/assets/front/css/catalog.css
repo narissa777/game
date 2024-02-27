@@ -1,0 +1,37 @@
+.bigcard{
+	display: flex;
+	justify-content: center;
+	gap: 105px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	margin: 90px;
+}
+.pdfview{
+	width: 250px;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center; 
+	border: #00000033 1px solid;
+	box-shadow:0px 0px 2px 3px #000000a1;
+	border-radius: 50px;
+}
+.pdfview:hover {
+	box-shadow: 0px 0px 8px 3px #000000a1;
+}
+.bottom{
+	margin-bottom: 900px;
+}
+@media screen and (max-width: 700px) {
+	.bottom{
+		margin-bottom: 100px;
+	}
+}
+p{
+	color: black;
+}

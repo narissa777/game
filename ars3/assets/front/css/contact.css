@@ -1,0 +1,105 @@
+/* Style inputs */
+input[type=text], select, textarea {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1px 0px 22px 0px;
+  margin-bottom: 16px;
+  margin-top: 15px;
+  resize: vertical;
+  border-radius: 8px;
+  border: 1px solid #71717136;
+  box-shadow: 0px 0px 6px 0px gray;
+}
+
+input[type=submit] {
+  background-color: #db0909a8;
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+label{
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: #db0909;
+}
+form{
+  background-color: whitesmoke;
+  border-radius: 40px;
+}
+.formcard{
+  padding: 100px;
+}
+
+/* Style the container/contact section */
+.container {
+  padding: 10px;
+  border-radius: 340px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 650px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .width {
+    width: 100%;
+  }
+  .container {
+    padding: 10px;
+    border-radius: 0;
+  }
+  .formcard{
+    padding: 45px;
+  }
+  form{
+    background-color: whitesmoke;
+    border-radius: 40px;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 60px;
+    justify-content: center;
+  }
+  .panel{
+    height:400px ;
+  }
+  .card{
+    height: 188px;
+    width: 201px;
+  }
+}

@@ -1,0 +1,40 @@
+/*---------about-------------*/
+.aboutduz{
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(circle at 50% 50%, #717171, #db090900);
+
+  margin-bottom: 120px;
+}
+.aboutyazi{
+ max-width: 320px;
+ font-size: 16px;
+ color: white;
+ padding: 40px;
+ border-radius: 20px 20px 81px 81px;
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.aboutduz img{
+  max-width: 500px;
+}
+@media screen and (max-width: 767px) {
+  .aboutduz img{
+    max-width: 100%;
+  }
+  .aboutduz{
+    justify-content: center;
+  }
+  .makineimg img{
+    max-width: 100%;
+  }
+}

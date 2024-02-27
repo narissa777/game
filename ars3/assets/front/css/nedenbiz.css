@@ -1,0 +1,63 @@
+
+/*--------NEDENBIZ----*/
+.arkaplan {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arkaplancontent {
+  background-color: rgb(255 255 255 / 61%);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.icon {
+
+  display: flex;
+  position: relative; /* Mutlaka bir konumlandırma türü belirtmelisiniz */
+  z-index: 1; /* Varsayılan z-index değeri */
+  width: 327px;
+  height: 299px;
+  padding: 20px;
+  margin: 10px;
+      background: radial-gradient(circle at 50% 50%, #717171, #000000c2);
+    border-radius: 100px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+
+  margin: 30px;
+  color: white;
+}

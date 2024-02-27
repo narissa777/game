@@ -1,0 +1,101 @@
+.bigcard{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.smallcard{
+	width: 600px;
+	border: #00000017 1px solid; 
+	background-color: whitesmoke;
+}
+.smallcardh1{
+	text-align:center;
+	padding:20px; 
+	border: #00000017 1px solid;
+}
+.object1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center; padding:20px;
+}
+.object3{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	padding: 20px;
+	flex-direction: row;
+	gap: 43px;
+}
+.imagediv{
+	width: 400px;
+}
+.imagediv img{
+	width: 100%;
+}
+.object2{
+	width: 500px;
+	margin: 9px; 
+	padding-bottom: 15px;
+}
+.object2 h1{
+	padding:20px;
+}
+.object2 span{
+}
+.tirnak{
+	width:130px;
+}
+@media only screen and (max-width: 600px) {
+	.bigcard {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.smallcard {
+		width: 90%; 
+	}
+
+	.object1,
+	.object2 {
+		width: 90%; 
+	}
+
+	.imagediv {
+		width: 80%;
+	}
+
+	.object2 h1 {
+		padding: 10px;
+	}
+
+	.tirnak {
+		width: 90px;
+	}
+	.object2 span{
+		font-size: 13px;
+	}
+	.object3{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	padding: 20px;
+	flex-direction: column;
+	gap: 43px;
+}
+.h1boyut{
+	font-size: 15px;
+}
+}
